@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# База данных (в учебных проектах лучше не заливать свою локальную БД)
+db.sqlite3
+
+# Настройки IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Файлы окружения (где лежат секретные ключи)
+.env
